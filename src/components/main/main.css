@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #282D35;
+    height: 100%;
+}
+
+.main * {
+    z-index: 2;
+}
+
+.main-background-image {
+    right: 0;
+    height: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 1;
+}
